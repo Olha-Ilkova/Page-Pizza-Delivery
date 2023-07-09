@@ -1,0 +1,593 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #FF8C42;
+}
+
+.header, .section__5--header{
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+	width: 100%;
+    height: 75px;
+    padding: 0px 65px;
+}
+.header nav{
+	width: 50vw;
+}
+.header__logo > h1{
+	float: right;
+	font-weight: 600;
+	font-size: 2vw;
+	line-height: 60px;
+	margin: -7px 9px;
+
+}
+.representation__title{
+	font-size: 4vw;
+    line-height: 0px;
+}
+.representation__subtitle{
+	color: #7B3000;
+	font-weight: 400;
+	font-size: 2.5vw;
+	margin: 72px 0px;
+}
+.search{
+	width: 492px;
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+}
+input, button{
+	border: 4px solid #FF5B00;
+	width: 16vw;
+	height: 48px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	cursor: pointer;
+}
+button[id$=__btn]{
+	background: #FF5B00;
+	color: white;
+	font-size: 24px;
+	line-height: 24px;
+	cursor: pointer;
+}
+#search__btn{
+	height: 48px;
+	width: 16vw;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 25px;
+}
+#tryNow__btn{
+	height: 68px;
+	width: 191px;
+	margin-top: 72px;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 30px;
+}
+
+.header__menu{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.header__logo{
+	text-align: center;
+}
+.header__menu li{
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.5vw;
+	line-height: 40px;
+	list-style: none;
+	border-bottom: 5px solid none;
+}
+.header__menu > li > a:hover{
+	cursor: pointer;
+	border-bottom: 5px solid #FF8C42;
+}
+a{
+	text-decoration: none;
+}
+section[class^=section]{
+	height: 100vh;
+}
+.section__1{
+	height: calc(100vh - 10vh)!important;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 65px;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	position: relative;
+}
+.representation__burger{
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    right: -65px;
+}
+#img--burger{
+	width: 55vw;
+}
+.section__2{
+	position: relative;
+}
+.section__2 img{
+	position: absolute;
+    top: 190px;
+    height: 600px;
+}
+.menu__pizza{
+	display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+.menu__pizzaLeft, .menu__pizzaRight{
+	font-family: 'Kosugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+    width: 45%;
+    
+}
+.menu__pizzaRight--flex{
+	display: flex;
+    justify-content: space-between
+}
+.menu__pizza > h4, li, span{
+	color: #7B3000;
+	margin-top: 25px;
+	list-style: none;
+}
+.menu__pizzaRight span{
+	font-size: 16px;
+    line-height: 116%;
+    width: 65%;
+    text-align: left;
+    display: block;
+    text-transform: lowercase;
+    margin-top: 10px;
+}
+.section__2 h3{
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 150px;
+	letter-spacing: 0.04em;
+	text-align: center;
+	margin-left: 2.4em;
+}
+#menu__btn{
+	height: 60px;
+    margin-top: 40px;
+}
+.section__3{
+	margin-top: 100px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.section__3--title {
+	font-family: 'Quicksand';
+	font-weight: 400;
+	font-size: 51px;
+	line-height: 80px;
+	text-align: center;
+	letter-spacing: 0.085em;
+	text-transform: capitalize;
+	color: #7B3000;
+	width: 13em;
+    padding: 50px;
+
+}
+.section__3--title > span{
+	color: #FF5B00;
+	font-weight: 600;
+	float: left;
+}
+#img--hands-taking-pizza{
+	width: 40vw;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#line--rotate{
+	position: absolute;
+	width: 1950.33px;
+	height: 0px;
+	border-bottom: 10px solid #FF5B00;
+	transform: rotate(116.21deg);
+	right: -36vw;
+}
+.section__3--list{
+	padding-top: 180px;
+    width: 30vw;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.085em;
+    text-transform: capitalize;
+}
+.section__3--list li{
+	list-style: outside;
+}
+.section__3--listEl li:nth-of-type(2){
+	margin-left: -30px;
+}
+.section__3--listEl li:nth-of-type(3){
+	margin-left: -60px;
+}
+.section__3--listEl li:nth-of-type(4){
+	margin-left: -90px;
+}
+.section__3--listEl li:nth-of-type(5){
+	margin-left: -120px;
+}
+.section__3--listEl li:nth-of-type(6){
+	margin-left: -150px;
+}
+.section__3--listBtn{
+	display: flex;
+    justify-content: space-evenly;
+    margin-left: -150px;
+    margin-top: 50px;
+}
+#order__btn, #ourMenu__btn{
+	width: 200px;
+	height: 60px;
+}
+.section__4{
+	position: relative;
+}
+.absolute--img{
+	position: absolute;
+}
+#clover{
+	top: 0;
+	width: 600px;
+}   
+#capcicum{
+	top: 0;
+    left: 500px;
+    width: 600px
+}
+#haldi{
+	bottom: 0;
+    left: 500px;
+    width: 450px; 
+}
+
+#gobi{
+	bottom: 0;
+	right: 0;
+	width: 400px;
+}
+.form--reservation{
+	position: absolute;
+	height: 80vh;
+	width: 30vw;
+	background: rgba(217, 217, 217, 0.59);
+	box-shadow: 10px 19px 30px 5px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(1px);
+	border-radius: 10px;
+	right: 80px;
+    top: 80px;
+    text-align: center;
+    padding: 20px 40px;
+}
+.form--reservation h4{
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 50px;
+	letter-spacing: 0.085em;
+	text-transform: uppercase;
+}
+.form--reservation span{
+	color: #151515;
+	font-size: 14px;
+	letter-spacing: 0.023em;
+	text-transform: capitalize;
+}
+.form--reservation__containerInp{
+	margin-top: 18px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	align-items: center
+}
+form > .form--reservation__containerInp label{
+	width: 315px;
+	font-size: 21px;
+}
+form > .form--reservation__containerInp input{
+	border: none;
+	border-bottom: 1px dashed black;
+	border-radius: 0;
+	background: none;
+	box-shadow: none;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#form__btn{
+	margin-top: 25px;
+}
+.section__5{
+	position: relative;
+}
+.section__5--header{
+	background: #212121;
+	backdrop-filter: blur(1px);
+}
+.section__5--header--help--signIn{
+	display: flex;
+}
+.section__5--header--help--signIn span{
+	color: #FFFFFF;
+}
+.section__5--header--help, .section__5--header--signIn{
+	padding: 0 40px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 45px;  
+    cursor: pointer;
+}
+
+.section__5--headerIcon{
+	width: 20px; 
+	margin-right: 5px;
+}
+.section__5--container{
+	display: flex;
+    padding: 25px 100px;
+    height: calc(100vh - 75px);
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.order{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	width: 500px;
+    height: 82vh;
+	background: rgba(217, 217, 217, 0.59);
+	box-shadow: 10px 19px 30px 5px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(1px);
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 0px;
+}
+.order--title{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order--titleText{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 10px;
+	text-align: center;
+}
+.order--titleText span{
+	color: #1E1E1E;
+}
+.order--titleText span:nth-of-type(1){
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+}
+#pizza--form{
+	width: 100px;
+	margin-right: 20px;
+} 
+.orderList{
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+} 
+.orderList span{
+	margin: 10px;
+}
+.makePizza__link{
+
+}
+.order__removeItemBtn, .order__addItemBtn{
+	color: #FF5B00;
+	padding: 2px 12px;
+	border: 3px solid #FF5B00;
+	cursor: pointer;
+}
+.orderBtn{
+	width: 70%;
+}
+.order__couponInp{
+	background: none;
+	border: none;
+	box-shadow: none;
+	padding: 0 20px;
+	width: 150px;
+}
+.order__cupounBtn{
+	background: #FF5B00;
+	color: white;
+	font-size: 24px;
+	margin: 20px 0;
+}
+.orderBtn--cost{
+	font-size: 24px;
+	font-weight: 600;
+}
+.section__5--accordion{
+	width: 51%;
+	
+}
+.accordion__item{
+	margin-top: 60px;
+	background: rgba(217, 217, 217, 0.59);
+	box-shadow: 10px 19px 30px 2px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(1px);
+	border-radius: 10px;
+	padding: 28px 50px;
+	position: relative;	
+	cursor: pointer;
+}
+.accordion__itemContent{
+	height: 0;
+	overflow: hidden;
+	transition: height 0.3s ease;
+	font-size: 16px;
+	line-height: 20px;
+	transition: height 2s 1s;
+}
+.accordion__item > img{
+	position: absolute;
+	left: -50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.accordion__item__title{
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: 32px;
+	line-height: 40px;
+}
+.accordion__itemContent__LogInSignIn{
+	display: flex;
+    width: 315px;
+    justify-content: space-between;
+    padding: 32px 0px;
+    text-align: center;
+    font-size: 12px;
+	line-height: 15px;
+}
+.accordion__contentHide__LogIn, .accordion__contentHide__SignIn{
+	width: 142px;
+	height: 36px;
+	border: 1px solid #FF5B00;
+	border-radius: 5px;
+}
+a{
+	color: #FF5B00;
+}
+#pizza-slice{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 25vw;
+}
+.coupon, .makePizza{
+	height: 100vh;
+	width: 100vw;
+	background: rgba(0, 0, 0, .5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+}
+.order__cupounBtn, #order__makePizzaBtn{
+	width: 200px;
+	height: 40px;
+}
+.order__couponInp{
+	width: 168px;
+}
+.hide{
+	display: none;
+}
+.overflowYHidden{
+	overflow-y: hidden;
+}
+.time{
+	position: absolute;
+    right: 60px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.bgBlack{
+	background: #151515;
+}
+.bgWhite{
+	background: #F4F4F4;
+}
+.textBeige{
+	color: FF8C42;
+}
+
+.transition03s{
+	transition: 0.3s;
+}
+.makePizza__body{
+	height: 600px;
+	width: 400px;
+	background: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	position: relative;
+	padding: 30px 20px;
+	border-radius: 15px;
+}
+.makePizza__body input{
+	width: 20px;
+	height: 20px;
+}
+.makePizza__link{
+	font-size: 16px;
+	padding: 5px;
+}
+.ingredients{
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.ingredients > label{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ingredients > label > span {
+	margin-top: 0px;
+
+}
+.coupon__body{
+	height: 400px;
+	width: 400px;
+	background: white;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	position: relative;
+	padding: 30px 20px;
+	border-radius: 15px;
+	
+}
+.coupon__closeBtn, .makePizza__closeBtn{
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	margin-top: 0px;
+	cursor: pointer;
+}
